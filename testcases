@@ -1,0 +1,18 @@
+TESTCASE1:
+ Users password is incorrect so the program would ask them to try again (until they enter the right password
+ or exit the program
+
+TESTCASE2:
+ User enters correct information, updates balance by depositing some money and then exits the program. The
+ program will return the new balance back into atm class (so that her new balance will be saved)
+
+TESTCASE3:
+ User enters deposit and then withdraws but enters a wrong value (non number), the program will tell the user
+ that their input is invalid and that they have to enter again
+
+TESTCASE4:
+ User enters a name/account that is not in the system so the account will continue asking them to check name
+ and/or account number or to exit.
+
+TESTCASE5:
+ Secret option hacker on the menu which will print out all of the information to user

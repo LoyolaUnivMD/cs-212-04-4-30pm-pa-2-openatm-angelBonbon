@@ -1,0 +1,39 @@
+ACCOUNT CLASS:
+
+1) DATA FIELDS:
+    - double [] transactions
+    - String name
+    - String password
+    - int accountNum (position of the Account object in the array)
+    - double balance (holds balance which is updated after user uses it)
+
+2) CONSTRUCTOR:
+    parameters:
+    - String name
+    - String accountNum
+    - double deposit
+
+
+3) METHODS:
+    - boolean securityCheck: uses name, accountNum, and password to check if the user is the owner of the account
+    - double deposit: asks the owner how much they want to deposit and adds it to balance // error checking
+    - double withdraw: asks the owner how much they want to withdraw and subtracts it from balance // error checking
+    - double[] getStats: outputs the users current balance, minimum and maximum transactions and last 5 transactions (using transaction array)
+    - void display: displays the users name and last 5 transactions
+    - updateBalance: takes in the final balance (after the user has exited) and stores it to be used later
+    - void hacker: requires user to input a secret code (parameter) which will show all stats of every client
+
+
+MAIN CLASS:
+
+1) Creates an array of Accounts which stores the information of 5 clients
+1) Asks user for userName and password and checks if their account is valid
+2) Uses a while loop that allows th user to continue as long as they want
+3) User can choose from the following (encompassed in an if-else statement):
+    - deposit (uses deposit method)
+    - withdraw (uses withdraw method)
+    - get statistics (uses getStats method)
+    - view recent transactions (uses display method)
+    - exit (has thank you statement for ending)
+    - hacker option (secret option)
+    - error checking for invalid menu options
