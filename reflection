@@ -1,0 +1,33 @@
+What is the most challenging thing you experienced?
+The most challening thing I experienced was using the isDigit function, one of the requirements for the
+project was to make sure that invalid user input would not crash the program, I had tried to use the
+isDigit method before and was successful but was not this time. I tried so many different ways (while
+loops, typecasting, a combination of both) but I could not figure it out.
+
+How did you overcome it?
+To overcome my problem I asked professor John for help and thankfully he was able to give me a solution
+which was to use the try/catch method and this was able to work very well for me. I was honestly draining
+but I felt very accomplished after figuring it out.
+
+Anything you would do differently given what you know now.
+I think that my biggest issue was not spending enough time planning things through and just doing everything
+on a whim. My design was not very well done (at least not enough for me to really understand how to trouble
+shoot) I felt like I kept missing steps and had to keep on going back to fix things. Also I wish I had
+spend more time overall on working on it (maybe during break lol)
+
+Was it helpful to build on a project that you already built in lab?
+It was but only a little. In one aspect it was nice because it felt like I had to do less work, but at
+the same time I had to remember exactly what my code was doing. I do have the comments which is helpful
+but at the same time keeping up with all the different variables at once was a bit confusing.
+
+Are you becoming more comfortable with classes?
+I'm definetly becoming comfortable with classes. I used 3 classes in my program this time which is more
+than I have done before and I though that it was much more helpful than just using 2 classes. I had an
+atm class that kept track of all accounts at once and I felt like keeping track of all them in the main
+class would have been much more difficult.
+
+How did you feel about arrays? Were there things about them that you would like to overcome?
+I felt pretty good about arrays. I used arraylist which made my life like 10 times easier than if I had
+just used arrays. I feel like I saved a lot of time using them instead of a plain array. Overall arrays
+are pretty cool. I feel like I might have used an 2D array for my code if I had known about them ealier
+but what's done is done lol.

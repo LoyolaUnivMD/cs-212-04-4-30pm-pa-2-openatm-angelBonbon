@@ -1,18 +1,16 @@
 ACCOUNT CLASS:
 
 1) DATA FIELDS:
-    - double [] transactions
+    - double ArrayList transactions
     - String name
     - String password
-    - int accountNum (position of the Account object in the array)
     - double balance (holds balance which is updated after user uses it)
 
-2) CONSTRUCTOR:
+2) CONSTRUCTOR (generic / default):
     parameters:
     - String name
     - String accountNum
-    - double deposit
-
+    - double balance
 
 3) METHODS:
     - boolean securityCheck: uses name, accountNum, and password to check if the user is the owner of the account
@@ -21,7 +19,22 @@ ACCOUNT CLASS:
     - double[] getStats: outputs the users current balance, minimum and maximum transactions and last 5 transactions (using transaction array)
     - void display: displays the users name and last 5 transactions
     - updateBalance: takes in the final balance (after the user has exited) and stores it to be used later
+
+
+
+ATM CLASS:
+
+1) Data fields
+    - 5 Accounts objects (2 with generic and 3 with default)
+    - allAccounts (arraylist of Accounts)
+
+2) METHODS:
+    - Account inAccount: checks to see if a name is in an account and returns coralating account
+    - int openInventory: checks to see if there is space for new account
+    - Account newAccount: creates a new account if there is enough space
+    - boolean doesExist: Checks to see if an account exists
     - void hacker: requires user to input a secret code (parameter) which will show all stats of every client
+
 
 
 MAIN CLASS:
