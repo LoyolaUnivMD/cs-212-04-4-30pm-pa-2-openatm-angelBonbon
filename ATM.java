@@ -89,6 +89,15 @@ public class ATM { //remember to change the name of the class to match the name 
         }
     }
 
+    public int getAccountNum(String name) {
+        for(int i=0; i<allAccounts.size(); i++){
+            if (allAccounts.get(i).getName().equals(name)){
+                return i+1;
+            }
+        }
+        return 0;
+    }
+
 
 
 

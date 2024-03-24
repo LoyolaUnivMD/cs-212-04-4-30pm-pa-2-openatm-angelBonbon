@@ -214,9 +214,6 @@ public class Account {
         return balance;
     }
 
-    /*public int getAccountNum() {
-        this.transactions.get
-    }*/
 
     /////////////////////////////////////////////////////////////////////////////////////////////////////////
 

@@ -1,3 +1,12 @@
+// Programmers: Bonita Rodrigues
+// Course:  CS 212, Prof John
+// Due Date: 3/24/24
+// Lab Assignment: ATM with Objects Activity
+// Problem Statement: Develop the ATM program to hold multiple users (and be able to switch users)
+// Data In: name, password, choice (d, w, b, e), deposit amount, withdrawal amount
+// Data Out: balance, updated balance (based on withdraw/deposit)
+// Credits: none
+
 import java.util.Scanner;
 import java.util.ArrayList;
 
@@ -58,7 +67,7 @@ public class Main {
             String choice;
             if(!name.equals("e") && person.isOwner()){ // Checks if the user is the owner of the account
                 choice = ""; // Sets choice to default so that program runs
-                System.out.println("Welcome to you account " + person.getName() + "!\n\tYour Account Number is: ");
+                System.out.println("Welcome to you account " + person.getName() + "!\n\tYour Account Number is: " + bank.getAccountNum(name));
             } else {
                 choice = "l"; // Causes person to automatically be logged out of account
                 System.out.println("You cannot access this account at this time");
